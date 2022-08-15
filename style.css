@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: "Poppins", sans-serif;    
+}
+
+.container{
+    padding: 30px 30px 30px 30px;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    width: 100px;
+    margin-left: 80px;
+}
+
+nav{
+    font-size: 14px;
+}
+
+.nav-item{
+    margin-left: 40px;
+    color: #fff;
+}
+
+nav > a:first-child{
+    color: #1bbcef;
+    border-bottom: 2px solid #a43bff;
+}
+
+.btnRegister{
+    margin-left: 90px;
+    color: #fff;
+    background-color: #4ab3ed;
+    border: none;
+    height: 42px;
+    width: 160px;
+    font-weight: 700;
+    margin-right: 30px;
+}
+
+.intro-section{
+    padding: 30px 30px 30px 30px;
+    background-color:#7030cc;
+    height: 570px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+
+.intro-content-section{
+    display: flex;
+    justify-content: space-between;        
+}
+
+.left-section{
+    margin-left: 80px;
+    margin-top: 100px;
+    width: 35%;
+}
+
+.left-section > h1{
+    font-size: 55px;
+    color: #fff;
+}
+
+.left-section > h4{
+    margin-top: 20px;
+    font-size: 15px;
+    font-weight: 400;
+    color: #d3d5d9;
+    line-height: 23px;
+}
+
+.intro-content-section > div:last-child{
+    width: 50%;
+}
+
+.hero{
+    min-width: 100%;
+    width: 500px;
+}
+
+.content-section{
+    display: flex;
+    justify-content: space-between;
+}
+
+.content-section > div:first-child{
+    width: 44%;
+    margin-left: 50px;
+}
+
+.pic-2{
+    min-width: 100%;
+}
+
+.content-right-section{
+    width: 24%;
+    margin-right: 150px;
+}
+
+.content-right-section h1{
+    font-size: 25px;
+    margin-top: 80px;
+}
+
+.content-right-section ul{
+    margin-top: 30px;
+    list-style-type: none;
+}
+
+.content-right-section ul li{
+    margin-top: 25px;
+}
+
+.content-right-section img{
+    width: 20px;
+    vertical-align: middle;
+}
+
+.content-right-section p{
+    font-size: 13px;
+    margin-left: 25px;
+    margin-top: 10px;
+}
+
+.bottom-section{
+    text-align: center;
+}
+
+.cards{
+    display: flex;
+    margin-top: 60px;
+    justify-content: center;
+    gap: 30px;
+}
+
+.cards img{
+    width: 100px;
+    margin-top: 30px;
+}
+
+.card{    
+    border-radius: 25px;
+    text-align: center;
+    margin: 5px 10px;
+    width: 200px;
+    box-shadow: 6px 6px 5px rgb(0 0 0 / 30%);
+    height: 240px;
+}
+
+.card h4{
+    font-size: 20px;
+}
+
+.card p{
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+.card > div:last-child{
+    margin-top: 20px;
+}
+
+.card-active{
+    background-color: #6429b7;
+    border-radius: 20px;
+    height: 83px;
+    color: #fff;
+}
